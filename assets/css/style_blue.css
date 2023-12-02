@@ -27,6 +27,7 @@ Version: 1.0.0
 /*
 # Normalize
 --------------------------------------------------------------*/
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -1440,7 +1441,7 @@ img {
 .register {
   /* margin-top: 20%;
   margin-bottom: 20%; */
-  background-image: url("../images/banner.webp");
+  background-image: url("../images/DF23-GoogleSites-Banner-Yellow.webp");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
