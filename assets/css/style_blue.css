@@ -1112,7 +1112,7 @@ img {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 5px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .speakers .speaker .avatar img {
   -webkit-transition: all ease 0.35s;
@@ -1133,6 +1133,7 @@ img {
   width: 100%;
   -webkit-transition: all ease 0.3s;
   transition: all ease 0.3s;
+  max-width: 80%;
 }
 .speakers .speaker .social-links a {
   font-size: 1.4em;
@@ -1155,10 +1156,12 @@ img {
 @media screen and (min-width: 992px) {
   .speakers .speaker .social-links {
     bottom: -100%;
+    display: none;
   }
 
   .speakers .speaker:hover .social-links {
-    bottom: 0;
+    display: block;
+    bottom: -5%;
   }
 }
 @media screen and (min-width: 768px) {
