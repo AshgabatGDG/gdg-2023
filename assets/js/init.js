@@ -63,10 +63,10 @@
     // Slide Background
     $('.site-header').vegas({
       slides: [
-        { src: "assets/images/DF23-GoogleSites-Banner-Blue.png" },
-        { src: "assets/images/DF23-GoogleSites-Banner-Yellow.jpg" },
-        { src: "assets/images/DF23-GoogleSites-Banner-Green.jpg" },
-        { src: "assets/images/DF23-GoogleSites-Banner-Red.jpg" },
+        { src: "assets/images/DF23-GoogleSites-Banner-Blue.webp" },
+        { src: "assets/images/DF23-GoogleSites-Banner-Yellow.webp" },
+        { src: "assets/images/DF23-GoogleSites-Banner-Green.webp" },
+        { src: "assets/images/DF23-GoogleSites-Banner-Red.webp" },
 
 
       ]
