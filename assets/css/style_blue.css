@@ -27,9 +27,30 @@ Version: 1.0.0
 /*
 # Normalize
 --------------------------------------------------------------*/
+@font-face {
+  font-family: 'Google Sans';
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/GoogleSans-Regular.woff2") format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Google Sans';
+  font-weight: 800;
+  font-style: normal;
+  src: url("../fonts/GoogleSans-Bold.woff2") format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Google Sans';
+  font-weight: 400;
+  font-style: italic;
+  src: url("../fonts/GoogleSans-Italic.woff2") format('woff2');
+  font-display: swap;
+}
 
 html {
-  font-family: sans-serif;
+  font-family: "Google";
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
@@ -297,8 +318,8 @@ h1, h2,
 h3, h4,
 h5, h6 {
   color: #212121;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
+  font-family: "Google Sans";
+  font-weight: 800;
   letter-spacing: normal;
   line-height: 1.3;
 }
@@ -413,7 +434,7 @@ img {
 
 .fp-meta {
   position: relative;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Google Sans";
   font-size: 13px;
   font-weight: 300;
   font-style: italic;
@@ -657,7 +678,7 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Google Sans";
   font-weight: 400;
   text-transform: uppercase;
   width: 100%;
@@ -985,7 +1006,7 @@ img {
   transform: translateY(-50%);
 }
 .event-countdown .countdown-box .count-amount {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Google Sans";
   font-size: 3em;
   font-weight: 800;
   margin-bottom: 5px;
@@ -1033,7 +1054,7 @@ img {
     transform: translateY(-50%);
   }
   .event-countdown .countdown-box .count-amount {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Google Sans";
     font-size: 2em;
     font-weight: 800;
     margin-bottom: 5px;
@@ -1364,7 +1385,7 @@ img {
 .package .package-header {
   padding: 15px 20px 10px;
   text-align: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Google Sans";
 }
 .package .package-name {
   text-transform: uppercase;
@@ -1664,7 +1685,7 @@ img {
 }
 .blog-posts .post-meta {
   color: #999999;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Google Sans";
   font-size: .8em;
   text-transform: uppercase;
   margin-bottom: 5px;
@@ -1677,7 +1698,7 @@ img {
 }
 .blog-posts .post-title {
   font-size: 1.1em;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 1.48;
   text-transform: uppercase;
   letter-spacing: .1em;
